@@ -1,0 +1,42 @@
+# 前端跨域问题
+dva中(用的webpack的devServer),.webpackrc配置
+"proxy": {
+   "/flusher": {
+   "target": "http://localhost:8080/",
+   "changeOrigin": true
+}
+
+SpringBoot 后端
+一.普通的HTTP请求,涉及浏览器跨域问题,可以通过webpack前端服务器代理,也可以后端这样设置
+public class DemoApplication extends WebMvcConfigurerAdapter {
+
+	public static void main(String[] args)
+	{
+		//Apollo必须要的配置,可在启动的时候配置-D参数传入
+		System.setProperty("env","DEV");
+		SpringApplication.run(DemoApplication.class, args);
+	}
+
+	@Override
+	public void addCorsMappings(CorsRegistry registry) {
+
+		registry.addMapping("/**")
+				.allowCredentials(true)
+				.allowedHeaders("*")
+				.allowedOrigins("*")
+				.allowedMethods("*");
+
+	}
+
+
+}
+二.WebSocket
+@Configuration
+@EnableWebSocketMessageBroker
+public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
+    @Override
+    public void registerStompEndpoints(StompEndpointRegistry registry) {
+        registry.addEndpoint("/websocket-endpoit").setAllowedOrigins("*").withSockJS();
+    }
+
+}
