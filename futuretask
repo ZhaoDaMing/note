@@ -1,0 +1,44 @@
+# Future Task
+
+1.hive sql执行能否异步,长时间开启一个hive链接是否有问题,Hive原生的api是否支持异步?
+3.Future的get方法.调用和不调用的区别,在kafka里,如果没调用，是否性能高,还是仅仅不阻塞
+4.多个线程进行I/O比一个线程速度快么?还是分文件?
+5.JDBC的内容,好知道Mybatis和Hibernate对于时间的解决+java8时间
+6.I/O + 多线程
+7.java8 api stream不调用collect收集的话,不会触发执行,这个是不是和Spark有点相啊(拿filter方法试的)?
+8.观察者模式--->和监控的需求不谋而合?
+9.kylin为什么要用long在域对象中表示时间,不用Date?
+10.log其中对volatile的使用,以及双重检查锁double-check locking,为什么是编译时确定,log日志如何解析变量${},怎么让Spring那里也这么解析
+11.在JVM用Runtime调用shell脚本
+12.为什么用单例对象不用stack工具方法
+13.mysql保存日期格式的精度问题,(需要依靠比较时间戳决定是否保存),比较时间大小的时候,毫秒数被截取
+14.spark-order运行程序黑盒子,不知道是否修改过,打印日志,跟踪消息
+15.修改刷数据的俩个包,canal和mysql-->kafka,canal,不要重启!!''
+today :Hibernate 咋那么多select出来,批量增加的时候,如果主键生成策略,为什么会有一堆的select,为什么有update语句
+16.OS如何找到文件系统的指定位置,比如mysql如何快速删除指定行的,索引怎么记录文件的位置信息
+17.Java编程思想,如何查找到子方法,比如动态代理,根据接口生成类,不管任何方法被调用都执行InvocationHandler的invoke方法,然后根据method去调用,method会根据target的内容进行方法的调用
+18.logback将低于等级的输出和重合的输出过滤？
+19.远程shell调用spark的shell为什么不好使
+20.显示参数和隐式参数（scala java）
+21.java 访问器方法和改值器方法 (LocalDate不改变自身,Calendar改变.Date代表时间点,前面俩个代表时间的表示形式)
+22.maven插件目标和反应堆??
+23.看类加载器机制,找到读取指定包下面的所有类的方法
+24.javac 会检查所有在源代码的出现的类,jvm会在用到类时候才加载该类到内存(应用自己的类代码是这样)
+25.BeanUtils
+26.mysql客户端服务器关闭,链接是否关闭,还是要等超时?需要看socket知识才能知道?如何知道？
+27.同名类同时被引入一个项目,会用哪个?看一下类加载?类名相同,根据classpath决定?,为什么注释上写编译的时候？获取
+28.tars代码,Spring源码?如何得到ServerXml类型,tars:servant标签如何以及何时被解析,其他bean标签何时被解析
+29.Map里多个ArrayList guava
+30.通过Kafka RebalanceListener复习下内部类(便于访问外部类的成员变量,否则要有不好的公共方法)
+31.磁盘I/O相关知识,多线程能否提高磁盘利用率?通过看数据库的相关知识?Hbase等知识也会有助于磁盘
+32.mysql顺序 select id as b from table1 where b>3 会出错.先执行了where才会执行前面的as,mysql看的时候顺便学一下硬盘以及多线程锁相关的知识
+33.log4j可以PropertyConfigurator.configure(configStream2);重新加载配置.是否定时重新读取,最好用个带观察者模式的?appolo?还是zk?还是spring config?
+34.mysql索引问题?①那几个索引咋回事了,②事务,长事务具体影响?行级锁?如果读大量数据,这时候有写操作会如何?,长事务本质问题是?
+35.俩个线程调试zk,线程在哪卡死的?用jstack和jmap分析下？
+36.用LRU+zk watcher
+37.怎么对文件建立索引?快速找到指定的记录?当数据量比较大的时候
+38.查看指定进程的线程 top -Hp 101373占用资源,前面是显示的线程的id,转换为16进制之后,去stack 101373查找线程现在运行在哪里
+39.mac中IDEA跳到指定行指定列
+40.看poll的源码,和commmitSyc(),看提交的偏移量到底是从哪来的,poll()是否会在onPartitionsRevoked方法之前引起position的变化
+41.Hibernate的事务,需要看Spring的源代码.如何用JPA save方法，不用@Transaction开事务?获取线程中的链接,然后开事务?因为service方法长,不想在外面注解,可以另外写一个service
+42.FlusherTask call方法结束的finally地方,抛出运行时异常,没有打印异常信息,和线程池有关？
