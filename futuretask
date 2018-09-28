@@ -42,3 +42,6 @@ today :Hibernate 咋那么多select出来,批量增加的时候,如果主键生�
 40.看poll的源码,和commmitSyc(),看提交的偏移量到底是从哪来的,poll()是否会在onPartitionsRevoked方法之前引起position的变化
 41.Hibernate的事务,需要看Spring的源代码.如何用JPA save方法，不用@Transaction开事务?获取线程中的链接,然后开事务?因为service方法长,不想在外面注解,可以另外写一个service
 42.FlusherTask call方法结束的finally地方,抛出运行时异常,没有打印异常信息,和线程池有关？
+43.JdbcTemplate多个数据源的使用,是线程安全 还是每个线程一个,如何管理资源的关闭
+44.以Http的形式记录请求,判断josn 和form,看tomcat是在何处获取到http请求的数据的.不用自己后期根据请求重新拼接一次,tomcat哪个地方有hook
+23.看类加载器机制,找到读取指定包下面的所有类的方法的看类加载器机制,找到读取指定包下面的所有类的方法神看类加载器机制,找到读取指定包下面的所有类的方法
