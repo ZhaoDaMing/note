@@ -45,3 +45,4 @@ today :Hibernate 咋那么多select出来,批量增加的时候,如果主键生�
 43.JdbcTemplate多个数据源的使用,是线程安全 还是每个线程一个,如何管理资源的关闭
 44.以Http的形式记录请求,判断josn 和form,看tomcat是在何处获取到http请求的数据的.不用自己后期根据请求重新拼接一次,tomcat哪个地方有hook
 45.RestTemplate发送请求时和JdbcTemplate这种对象,即Spring依赖注入时候工程bean的规范,注解@Bean中加scope外,如何分别创建一次,多次,线程级别次对西那个
+46.druid是否改把hbase rowkey写进去
