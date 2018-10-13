@@ -1,0 +1,13 @@
+1.编程语言Java: 
+       I/O文件系统 ,多线程,集合数据结构,NIO
+       Java内存模型,JVM工具解决线上问题
+2.Web系统 tomcat ,socket,http
+3.框架:Spring , Mybatis ,ZK,JSON
+4.Mysql 库表设计,分库分表设计,,sql调优, Innodb锁,事务,多版本机制
+分布式
+缓存 (localCache,redis ,memcache)
+消息机制 （Kafka，JMS,生产者消费者模式)
+5.服务化系统架构,SOA,服务治理,Zookeeper,Thrift,分布式事务处理
+6.高性能,高并发系统Hbase, 全文检索ElasticSearch,分布式缓存Redis
+7.高可用系统设计方案,负载均衡Nigx,冷热备份,主备切换,流控
+
