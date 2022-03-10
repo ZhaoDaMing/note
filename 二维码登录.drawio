@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T06:34:30.265Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="URy4M5oyr_QE6Rg7VrBr" version="17.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-10T08:34:42.894Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="mroi32VDx5BI4Ba2AxcW" version="17.1.0" type="github">
   <diagram id="YsNXJy2RDm9mWr69WWs2" name="Page-1">
     <mxGraphModel dx="2066" dy="2300" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -141,10 +141,11 @@
             <mxPoint x="144" y="615" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8xYVwYf3wzO2rZaNu7Fs-53" value="QRID绑定用户信息" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=14;fontColor=#1A1A1A;" parent="1" edge="1">
-          <mxGeometry width="80" relative="1" as="geometry">
+        <mxCell id="8xYVwYf3wzO2rZaNu7Fs-53" value="5.QRID绑定用户信息" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=14;fontColor=#1A1A1A;" parent="1" edge="1">
+          <mxGeometry x="0.5611" y="-10" width="80" relative="1" as="geometry">
             <mxPoint x="780.5" y="670" as="sourcePoint" />
             <mxPoint x="600.5" y="670" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8xYVwYf3wzO2rZaNu7Fs-58" value="4.1 loop&amp;nbsp;&lt;br&gt;timeout&amp;nbsp;" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=14;fontColor=#1A1A1A;" parent="1" vertex="1">
