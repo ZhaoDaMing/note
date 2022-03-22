@@ -1,115 +1,115 @@
-<mxfile host="app.diagrams.net" modified="2022-03-17T11:31:48.308Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="Xbf-_MJrATiib-OF0nhy" version="17.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-22T09:48:56.542Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="eaj-bDLLywzx4RVQbZEM" version="17.1.3" type="github">
   <diagram id="1SHHqmOzGKl9F2yKP9Ca" name="Page-1">
-    <mxGraphModel dx="2066" dy="2300" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2035" dy="2300" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="It-5ZGojbSho4e0sHDYB-4" value="Recruiter" style="swimlane;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="120" y="100" width="640" height="380" as="geometry" />
+        <mxCell id="It-5ZGojbSho4e0sHDYB-4" value="Recruiter" style="swimlane;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="120" y="100" width="640" height="380" as="geometry">
+            <mxRectangle x="120" y="100" width="110" height="30" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="It-5ZGojbSho4e0sHDYB-5" value="User" style="swimlane;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="It-5ZGojbSho4e0sHDYB-5" value="User" style="swimlane;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="643" y="-247" width="467" height="316" as="geometry" />
         </mxCell>
-        <mxCell id="It-5ZGojbSho4e0sHDYB-40" value="user" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=16;" vertex="1" parent="It-5ZGojbSho4e0sHDYB-5">
+        <mxCell id="It-5ZGojbSho4e0sHDYB-40" value="user" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=16;" parent="It-5ZGojbSho4e0sHDYB-5" vertex="1">
           <mxGeometry x="1" y="109" width="149" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="It-5ZGojbSho4e0sHDYB-43" value="id&#xa;mobile&#xa;role&#xa;as_recruiter&#xa;as_candidate&#xa;account_status" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" vertex="1" parent="It-5ZGojbSho4e0sHDYB-40">
+        <mxCell id="It-5ZGojbSho4e0sHDYB-43" value="id&#xa;mobile&#xa;role&#xa;as_recruiter&#xa;as_candidate&#xa;account_status" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" parent="It-5ZGojbSho4e0sHDYB-40" vertex="1">
           <mxGeometry y="26" width="149" height="134" as="geometry" />
         </mxCell>
-        <mxCell id="It-5ZGojbSho4e0sHDYB-44" value="user_device_info" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="It-5ZGojbSho4e0sHDYB-44" value="user_device_info" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="874" y="-141" width="180" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="It-5ZGojbSho4e0sHDYB-45" value="uid&#xa;os&#xa;os-version&#xa;model : Redmi 5&#xa;manufacturer: Xiaomi&#xa;language:zh_CN, en_IN&#xa;width &#xa;height&#xa;fcm-token(firebase的GCM)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="It-5ZGojbSho4e0sHDYB-44">
+        <mxCell id="It-5ZGojbSho4e0sHDYB-45" value="uid&#xa;os&#xa;os-version&#xa;model : Redmi 5&#xa;manufacturer: Xiaomi&#xa;language:zh_CN, en_IN&#xa;width &#xa;height&#xa;fcm-token(firebase的GCM)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" parent="It-5ZGojbSho4e0sHDYB-44" vertex="1">
           <mxGeometry y="26" width="180" height="174" as="geometry" />
         </mxCell>
-        <mxCell id="It-5ZGojbSho4e0sHDYB-46" value="recruiter" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="151" y="204" width="180" height="270" as="geometry" />
+        <mxCell id="It-5ZGojbSho4e0sHDYB-46" value="recruiter" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="151" y="204" width="180" height="270" as="geometry">
+            <mxRectangle x="151" y="204" width="90" height="26" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="It-5ZGojbSho4e0sHDYB-47" value="id&#xa;uid/sendbird_id&#xa;avatar/name&#xa;# email关联&#xa;email/mobile&#xa;#审核状态&#xa;verified &#xa;#账户禁用状态&#xa;account_status&#xa;#职务&#xa;designation&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" vertex="1" parent="It-5ZGojbSho4e0sHDYB-46">
+        <mxCell id="It-5ZGojbSho4e0sHDYB-47" value="id&#xa;uid/sendbird_id&#xa;avatar/name&#xa;# email关联&#xa;email/mobile&#xa;#审核状态&#xa;verified &#xa;#账户禁用状态&#xa;account_status&#xa;#职务&#xa;designation&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" parent="It-5ZGojbSho4e0sHDYB-46" vertex="1">
           <mxGeometry y="26" width="180" height="244" as="geometry" />
         </mxCell>
-        <mxCell id="It-5ZGojbSho4e0sHDYB-49" value="company" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="It-5ZGojbSho4e0sHDYB-49" value="company" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="384" y="204" width="146" height="226" as="geometry" />
         </mxCell>
-        <mxCell id="It-5ZGojbSho4e0sHDYB-51" value="&lt;blockquote style=&quot;margin: 0px 0px 0px 40px ; border: none ; padding: 0px ; font-size: 14px&quot;&gt;&lt;span&gt;注册/登录&lt;/span&gt;&lt;br&gt;&lt;span&gt;鉴权JWT-登录互踢&lt;/span&gt;&lt;br&gt;&lt;span&gt;身份/关联&lt;/span&gt;&lt;br&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px ; border: none ; padding: 0px ; font-size: 14px&quot;&gt;&lt;span&gt;设备信息记录&lt;/span&gt;&lt;/blockquote&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;horizontal=1;" vertex="1" parent="1">
+        <mxCell id="It-5ZGojbSho4e0sHDYB-51" value="&lt;blockquote style=&quot;margin: 0px 0px 0px 40px ; border: none ; padding: 0px ; font-size: 14px&quot;&gt;&lt;span&gt;注册/登录&lt;/span&gt;&lt;br&gt;&lt;span&gt;鉴权JWT-登录互踢&lt;/span&gt;&lt;br&gt;&lt;span&gt;身份/关联&lt;/span&gt;&lt;br&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px ; border: none ; padding: 0px ; font-size: 14px&quot;&gt;&lt;span&gt;设备信息记录&lt;/span&gt;&lt;/blockquote&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;horizontal=1;" parent="1" vertex="1">
           <mxGeometry x="650" y="-221" width="180" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="It-5ZGojbSho4e0sHDYB-54" value="&lt;blockquote style=&quot;margin: 0px 0px 0px 40px ; border: none ; padding: 0px ; font-size: 14px&quot;&gt;recruiter:个人信息/审核 create or join company&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px ; border: none ; padding: 0px ; font-size: 14px&quot;&gt;company:ES搜索/地址位置autocomplete detail/公司信息填写填/审核&lt;br&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px ; border: none ; padding: 0px ; font-size: 14px&quot;&gt;job信息填写&lt;/blockquote&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;horizontal=1;" vertex="1" parent="1">
+        <mxCell id="It-5ZGojbSho4e0sHDYB-54" value="&lt;blockquote style=&quot;margin: 0px 0px 0px 40px ; border: none ; padding: 0px ; font-size: 14px&quot;&gt;recruiter:个人信息/审核 create or join company&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px ; border: none ; padding: 0px ; font-size: 14px&quot;&gt;company:ES搜索/地址位置autocomplete detail/公司信息填写填/审核&lt;br&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px ; border: none ; padding: 0px ; font-size: 14px&quot;&gt;job信息填写&lt;/blockquote&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;horizontal=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="125" width="510" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="It-5ZGojbSho4e0sHDYB-55" value="id&#xa;full name&#xa;industry_id 行业id&#xa;scale_id 公司规模 &#xa;financing_id 融资阶段&#xa;verified 审核状态&#xa;creator_id&#xa;type&#xa;homepage 官网地址&#xa;description 等等" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="It-5ZGojbSho4e0sHDYB-55" value="id&#xa;full name&#xa;industry_id 行业id&#xa;scale_id 公司规模 &#xa;financing_id 融资阶段&#xa;verified 审核状态&#xa;creator_id&#xa;type&#xa;homepage 官网地址&#xa;description 等等" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="384" y="230" width="146" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="It-5ZGojbSho4e0sHDYB-56" value="job" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="It-5ZGojbSho4e0sHDYB-56" value="job" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="564" y="204" width="146" height="256" as="geometry" />
         </mxCell>
-        <mxCell id="It-5ZGojbSho4e0sHDYB-58" value="id&#xa;company_id&#xa;type_id 全职/兼职&#xa;title&#xa;decription&#xa;salary&#xa;experience_id 经验&#xa;degree_id 学位&#xa;occupation_id 职业&#xa;status   招聘状态&#xa;verified 审核&#xa;work_from_home" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="It-5ZGojbSho4e0sHDYB-58" value="id&#xa;company_id&#xa;type_id 全职/兼职&#xa;title&#xa;decription&#xa;salary&#xa;experience_id 经验&#xa;degree_id 学位&#xa;occupation_id 职业&#xa;status   招聘状态&#xa;verified 审核&#xa;work_from_home" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="564" y="230" width="146" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="It-5ZGojbSho4e0sHDYB-60" value="Candidate" style="swimlane;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="999" y="100" width="640" height="380" as="geometry" />
+        <mxCell id="It-5ZGojbSho4e0sHDYB-60" value="Candidate" style="swimlane;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="999" y="100" width="640" height="380" as="geometry">
+            <mxRectangle x="999" y="100" width="120" height="30" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="It-5ZGojbSho4e0sHDYB-61" value="recruiter" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="204" width="180" height="270" as="geometry" />
+        <mxCell id="It-5ZGojbSho4e0sHDYB-61" value="candidate" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="169" width="180" height="301" as="geometry" />
         </mxCell>
-        <mxCell id="It-5ZGojbSho4e0sHDYB-62" value="id&#xa;uid/sendbird_id&#xa;avatar/name&#xa;# email关联&#xa;email/mobile&#xa;#审核状态&#xa;verified &#xa;#账户禁用状态&#xa;account_status&#xa;#职务&#xa;designation&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" vertex="1" parent="It-5ZGojbSho4e0sHDYB-61">
-          <mxGeometry y="26" width="180" height="244" as="geometry" />
-        </mxCell>
-        <mxCell id="It-5ZGojbSho4e0sHDYB-63" value="company" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="It-5ZGojbSho4e0sHDYB-63" value="preference" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="1263" y="204" width="146" height="226" as="geometry" />
         </mxCell>
-        <mxCell id="It-5ZGojbSho4e0sHDYB-64" value="&lt;blockquote style=&quot;margin: 0px 0px 0px 40px ; border: none ; padding: 0px ; font-size: 14px&quot;&gt;candidate填写求职意向job preference&lt;/blockquote&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;horizontal=1;" vertex="1" parent="1">
-          <mxGeometry x="999" y="125" width="510" height="55" as="geometry" />
+        <mxCell id="It-5ZGojbSho4e0sHDYB-64" value="&lt;blockquote style=&quot;margin: 0px 0px 0px 40px ; border: none ; padding: 0px ; font-size: 14px&quot;&gt;candidate填写求职意向job preference&lt;/blockquote&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;horizontal=1;" parent="1" vertex="1">
+          <mxGeometry x="996" y="120" width="510" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="It-5ZGojbSho4e0sHDYB-65" value="id&#xa;full name&#xa;industry_id 行业id&#xa;scale_id 公司规模 &#xa;financing_id 融资阶段&#xa;verified 审核状态&#xa;creator_id&#xa;type&#xa;homepage 官网地址&#xa;description 等等" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="It-5ZGojbSho4e0sHDYB-65" value="id&#xa;candidate_id&#xa;&#xa;occupation_id&#xa;job_type_id&#xa;industry_id&#xa;city_id&#xa;salary&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="1263" y="230" width="146" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="It-5ZGojbSho4e0sHDYB-66" value="job" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1443" y="204" width="146" height="256" as="geometry" />
-        </mxCell>
-        <mxCell id="It-5ZGojbSho4e0sHDYB-67" value="id&#xa;company_id&#xa;type_id 全职/兼职&#xa;title&#xa;decription&#xa;salary&#xa;experience_id 经验&#xa;degree_id 学位&#xa;occupation_id 职业&#xa;status   招聘状态&#xa;verified 审核&#xa;work_from_home" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="1443" y="230" width="146" height="240" as="geometry" />
-        </mxCell>
-        <mxCell id="It-5ZGojbSho4e0sHDYB-69" value="审核平台" style="swimlane;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="It-5ZGojbSho4e0sHDYB-69" value="审核平台" style="swimlane;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="120" y="490" width="1520" height="30" as="geometry">
             <mxRectangle x="120" y="490" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="It-5ZGojbSho4e0sHDYB-70" value="主要针对Recruiter审核" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="It-5ZGojbSho4e0sHDYB-70" value="主要针对Recruiter审核" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="874" y="1470" width="160" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="It-5ZGojbSho4e0sHDYB-72" value="Recommend推荐" style="swimlane;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="It-5ZGojbSho4e0sHDYB-72" value="Recommend推荐" style="swimlane;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="556.5" y="600" width="640" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="It-5ZGojbSho4e0sHDYB-73" value="recruiter" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="It-5ZGojbSho4e0sHDYB-73" value="recruiter" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="587.5" y="704" width="180" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="It-5ZGojbSho4e0sHDYB-74" value="id&#xa;uid/sendbird_id&#xa;avatar/name&#xa;# email关联&#xa;email/mobile&#xa;#审核状态&#xa;verified &#xa;#账户禁用状态&#xa;account_status&#xa;#职务&#xa;designation&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" vertex="1" parent="It-5ZGojbSho4e0sHDYB-73">
+        <mxCell id="It-5ZGojbSho4e0sHDYB-74" value="id&#xa;uid/sendbird_id&#xa;avatar/name&#xa;# email关联&#xa;email/mobile&#xa;#审核状态&#xa;verified &#xa;#账户禁用状态&#xa;account_status&#xa;#职务&#xa;designation&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" parent="It-5ZGojbSho4e0sHDYB-73" vertex="1">
           <mxGeometry y="26" width="180" height="244" as="geometry" />
         </mxCell>
-        <mxCell id="It-5ZGojbSho4e0sHDYB-75" value="company" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="It-5ZGojbSho4e0sHDYB-75" value="company" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="820.5" y="704" width="146" height="226" as="geometry" />
         </mxCell>
-        <mxCell id="It-5ZGojbSho4e0sHDYB-76" value="&lt;blockquote style=&quot;margin: 0px 0px 0px 40px ; border: none ; padding: 0px ; font-size: 14px&quot;&gt;recruiter:个人信息/审核 create or join company&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px ; border: none ; padding: 0px ; font-size: 14px&quot;&gt;company:ES搜索/地址位置autocomplete detail/公司信息填写填/审核&lt;br&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px ; border: none ; padding: 0px ; font-size: 14px&quot;&gt;job信息填写&lt;/blockquote&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;horizontal=1;" vertex="1" parent="1">
+        <mxCell id="It-5ZGojbSho4e0sHDYB-76" value="&lt;blockquote style=&quot;margin: 0px 0px 0px 40px ; border: none ; padding: 0px ; font-size: 14px&quot;&gt;recruiter和candidate匹配的召回逻辑&lt;/blockquote&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;horizontal=1;" parent="1" vertex="1">
           <mxGeometry x="556.5" y="625" width="510" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="It-5ZGojbSho4e0sHDYB-77" value="id&#xa;full name&#xa;industry_id 行业id&#xa;scale_id 公司规模 &#xa;financing_id 融资阶段&#xa;verified 审核状态&#xa;creator_id&#xa;type&#xa;homepage 官网地址&#xa;description 等等" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="It-5ZGojbSho4e0sHDYB-77" value="id&#xa;full name&#xa;industry_id 行业id&#xa;scale_id 公司规模 &#xa;financing_id 融资阶段&#xa;verified 审核状态&#xa;creator_id&#xa;type&#xa;homepage 官网地址&#xa;description 等等" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="820.5" y="730" width="146" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="It-5ZGojbSho4e0sHDYB-78" value="job" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="It-5ZGojbSho4e0sHDYB-78" value="job" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="1000.5" y="704" width="146" height="256" as="geometry" />
         </mxCell>
-        <mxCell id="It-5ZGojbSho4e0sHDYB-79" value="id&#xa;company_id&#xa;type_id 全职/兼职&#xa;title&#xa;decription&#xa;salary&#xa;experience_id 经验&#xa;degree_id 学位&#xa;occupation_id 职业&#xa;status   招聘状态&#xa;verified 审核&#xa;work_from_home" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="It-5ZGojbSho4e0sHDYB-79" value="id&#xa;company_id&#xa;type_id 全职/兼职&#xa;title&#xa;decription&#xa;salary&#xa;experience_id 经验&#xa;degree_id 学位&#xa;occupation_id 职业&#xa;status   招聘状态&#xa;verified 审核&#xa;work_from_home" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="1000.5" y="730" width="146" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="It-5ZGojbSho4e0sHDYB-82" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/filter-analysis-remove-customize-funnel-128.png;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="It-5ZGojbSho4e0sHDYB-82" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/filter-analysis-remove-customize-funnel-128.png;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="2190" y="1390" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="It-5ZGojbSho4e0sHDYB-83" value="SendBird聊天" style="swimlane;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="It-5ZGojbSho4e0sHDYB-83" value="SendBird聊天" style="swimlane;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="566.5" y="990" width="593.5" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="It-5ZGojbSho4e0sHDYB-87" value="&lt;blockquote style=&quot;margin: 0px 0px 0px 40px ; border: none ; padding: 0px ; font-size: 14px&quot;&gt;1.sendbird第三方聊天功能&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px ; border: none ; padding: 0px ; font-size: 14px&quot;&gt;2.sendbird聊天数据回调&lt;/blockquote&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;horizontal=1;" vertex="1" parent="1">
+        <mxCell id="It-5ZGojbSho4e0sHDYB-87" value="&lt;blockquote style=&quot;margin: 0px 0px 0px 40px ; border: none ; padding: 0px ; font-size: 14px&quot;&gt;1.sendbird第三方聊天功能&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px ; border: none ; padding: 0px ; font-size: 14px&quot;&gt;2.sendbird聊天数据回调&lt;/blockquote&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;horizontal=1;" parent="1" vertex="1">
           <mxGeometry x="566.5" y="1015" width="510" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="nFpVH52aDJNWQiP0yXKt-1" value="id&#xa;uid/send_bird_id&#xa;mobile/email&#xa;name/avatar&#xa;gender&#xa;status 求职状态&#xa;birth_date&#xa;work_start_date&#xa;identity 学生/职场人&#xa;advantage&#xa;homepage&#xa;profile_qualify&#xa;work_experience&#xa;education_experience&#xa;resume" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1039" y="194" width="151" height="273" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
