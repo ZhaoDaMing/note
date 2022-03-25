@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-25T02:31:01.178Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="e-M0T-EvBwox549jyhXu" version="17.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-25T08:24:11.656Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="5cXlcrE3lRqzvT0JwIgw" version="17.2.2" type="github">
   <diagram id="1SHHqmOzGKl9F2yKP9Ca" name="Page-1">
-    <mxGraphModel dx="2035" dy="2300" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="1760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -78,7 +78,7 @@
         <mxCell id="It-5ZGojbSho4e0sHDYB-72" value="Recommend推荐" style="swimlane;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="540" y="572" width="940" height="628" as="geometry" />
         </mxCell>
-        <mxCell id="nFpVH52aDJNWQiP0yXKt-11" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Job&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="It-5ZGojbSho4e0sHDYB-72">
+        <mxCell id="nFpVH52aDJNWQiP0yXKt-11" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Job&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="It-5ZGojbSho4e0sHDYB-72" vertex="1">
           <mxGeometry x="50" y="138" width="90" height="52" as="geometry" />
         </mxCell>
         <mxCell id="It-5ZGojbSho4e0sHDYB-83" value="SendBird聊天" style="swimlane;fontSize=18;" parent="1" vertex="1">
@@ -87,34 +87,34 @@
         <mxCell id="It-5ZGojbSho4e0sHDYB-87" value="&lt;blockquote style=&quot;margin: 0px 0px 0px 40px ; border: none ; padding: 0px ; font-size: 14px&quot;&gt;1.sendbird第三方聊天功能&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px ; border: none ; padding: 0px ; font-size: 14px&quot;&gt;2.sendbird聊天数据回调&lt;/blockquote&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;horizontal=1;" parent="1" vertex="1">
           <mxGeometry x="636.5" y="1245" width="510" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="nFpVH52aDJNWQiP0yXKt-1" value="id&#xa;uid/send_bird_id&#xa;mobile/email&#xa;name/avatar&#xa;gender&#xa;status 求职状态&#xa;birth_date&#xa;work_start_date&#xa;identity 学生/职场人&#xa;advantage&#xa;homepage&#xa;profile_qualify&#xa;work_experience&#xa;education_experience&#xa;resume" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="nFpVH52aDJNWQiP0yXKt-1" value="id&#xa;uid/send_bird_id&#xa;mobile/email&#xa;name/avatar&#xa;gender&#xa;status 求职状态&#xa;birth_date&#xa;work_start_date&#xa;identity 学生/职场人&#xa;advantage&#xa;homepage&#xa;profile_qualify&#xa;work_experience&#xa;education_experience&#xa;resume" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="1039" y="194" width="151" height="273" as="geometry" />
         </mxCell>
-        <mxCell id="nFpVH52aDJNWQiP0yXKt-3" value="job_feature_index" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="nFpVH52aDJNWQiP0yXKt-3" value="job_feature_index" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="764" y="649" width="176" height="511" as="geometry" />
         </mxCell>
-        <mxCell id="nFpVH52aDJNWQiP0yXKt-4" value="job_id&#xa;job_title&#xa;industry_id(cmy)&#xa;experience_id&#xa;salary&#xa;occupation_id&#xa;type_id&#xa;city_id&#xa;occupation_parent&#xa;education_degree&#xa;&#xa;chat_num&#xa;replied_rate&#xa;click_rate&#xa;doube_chat_cnt&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="nFpVH52aDJNWQiP0yXKt-4" value="job_id&#xa;job_title&#xa;industry_id(cmy)&#xa;experience_id&#xa;salary&#xa;occupation_id&#xa;type_id&#xa;city_id&#xa;occupation_parent&#xa;education_degree&#xa;&#xa;chat_num&#xa;replied_rate&#xa;click_rate&#xa;doube_chat_cnt&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="764" y="675" width="156" height="465" as="geometry" />
         </mxCell>
-        <mxCell id="nFpVH52aDJNWQiP0yXKt-5" value="preference_feature_index" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="nFpVH52aDJNWQiP0yXKt-5" value="preference_feature_index" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="1013" y="650" width="217" height="520" as="geometry" />
         </mxCell>
-        <mxCell id="nFpVH52aDJNWQiP0yXKt-6" value="id&#xa;candidate_id&#xa;occupation_id&#xa;job_type_id&#xa;industry_id&#xa;city_id&#xa;salary&#xa;age&#xa;experience_id&#xa;gender&#xa;education_degree&#xa;quality&#xa;status&#xa;&#xa;c_ask_job&#xa;c_asked_job&#xa;chat_rate&#xa;click_rate&#xa;double_chat_cnt&#xa;c_reply_rate&#xa;view_job_cnt_14day&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="nFpVH52aDJNWQiP0yXKt-6" value="id&#xa;candidate_id&#xa;occupation_id&#xa;job_type_id&#xa;industry_id&#xa;city_id&#xa;salary&#xa;age&#xa;experience_id&#xa;gender&#xa;education_degree&#xa;quality&#xa;status&#xa;&#xa;c_ask_job&#xa;c_asked_job&#xa;chat_rate&#xa;click_rate&#xa;double_chat_cnt&#xa;c_reply_rate&#xa;view_job_cnt_14day&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="1013" y="675" width="167" height="475" as="geometry" />
         </mxCell>
-        <mxCell id="nFpVH52aDJNWQiP0yXKt-7" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 12.0pt&quot;&gt;&lt;span style=&quot;color: #6a8759&quot;&gt;beta/jobs/recommendation&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="nFpVH52aDJNWQiP0yXKt-7" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 12.0pt&quot;&gt;&lt;span style=&quot;color: #6a8759&quot;&gt;beta/jobs/recommendation&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="535" y="585" width="250" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="nFpVH52aDJNWQiP0yXKt-12" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Company&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="nFpVH52aDJNWQiP0yXKt-12" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Company&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="590" y="770" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="nFpVH52aDJNWQiP0yXKt-13" value="&lt;font style=&quot;font-size: 18px&quot;&gt;candidate&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="nFpVH52aDJNWQiP0yXKt-13" value="&lt;font style=&quot;font-size: 18px&quot;&gt;candidate&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="1290" y="750" width="90" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="nFpVH52aDJNWQiP0yXKt-14" value="&lt;span style=&quot;font-size: 18px&quot;&gt;preference&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="nFpVH52aDJNWQiP0yXKt-14" value="&lt;span style=&quot;font-size: 18px&quot;&gt;preference&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="1290" y="690" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="nFpVH52aDJNWQiP0yXKt-15" value="将company和candidate信息挂到job和preference上" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="nFpVH52aDJNWQiP0yXKt-15" value="将company和candidate信息挂到job和preference上" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="779" y="605" width="420" height="30" as="geometry" />
         </mxCell>
       </root>
