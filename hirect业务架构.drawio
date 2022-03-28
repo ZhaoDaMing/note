@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-28T01:55:47.783Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="m0GIsrCVxXjIpvt6SGxB" version="17.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-28T01:56:09.327Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="Crzf6_1xHzYfsfZluw4b" version="17.2.2" type="github">
   <diagram id="1SHHqmOzGKl9F2yKP9Ca" name="Page-1">
     <mxGraphModel dx="1186" dy="1760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -71,9 +71,6 @@
           <mxGeometry x="120" y="490" width="1520" height="30" as="geometry">
             <mxRectangle x="120" y="490" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="It-5ZGojbSho4e0sHDYB-70" value="主要针对Recruiter审核" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="874" y="1470" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="It-5ZGojbSho4e0sHDYB-72" value="Recommend推荐" style="swimlane;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="540" y="572" width="940" height="628" as="geometry" />
