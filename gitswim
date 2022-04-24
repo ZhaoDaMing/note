@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-24T09:32:20.297Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="zTO2Zh94dJW7CrW-o6xb" version="17.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-24T09:36:45.728Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="jrXpSBzm3oFEtJscUNim" version="17.4.5" type="github">
   <diagram id="1SFQqW9EpFcVfZQIeXKp" name="Page-1">
     <mxGraphModel dx="2893" dy="1131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,16 +43,16 @@
             <mxPoint x="750" y="880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Qm-mWO_p67Wqp07pFZYI-24" value="服务B" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="Qm-mWO_p67Wqp07pFZYI-24" value="服务B2" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-130" y="650" width="130" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Qm-mWO_p67Wqp07pFZYI-25" value="服务C" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="Qm-mWO_p67Wqp07pFZYI-25" value="服务C2" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="120" y="650" width="130" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Qm-mWO_p67Wqp07pFZYI-29" value="服务B" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="Qm-mWO_p67Wqp07pFZYI-29" value="服务B1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-130" y="520" width="130" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Qm-mWO_p67Wqp07pFZYI-31" value="服务D" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="Qm-mWO_p67Wqp07pFZYI-31" value="服务D1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="350" y="520" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Qm-mWO_p67Wqp07pFZYI-33" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=24;fontColor=#0066CC;fillColor=#dae8fc;strokeColor=#B5739D;strokeWidth=4;" edge="1" parent="1">
@@ -111,6 +111,12 @@
         </mxCell>
         <mxCell id="Qm-mWO_p67Wqp07pFZYI-46" value="&lt;font color=&quot;#cc99ff&quot;&gt;骨干链路&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=24;fontColor=#FFFF66;" vertex="1" parent="1">
           <mxGeometry x="-515" y="805" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qm-mWO_p67Wqp07pFZYI-47" value="&lt;font color=&quot;#99ccff&quot;&gt;QA +RD 泳道2&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=24;fontColor=#CC99FF;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="260" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qm-mWO_p67Wqp07pFZYI-48" value="&lt;font color=&quot;#cfff0d&quot;&gt;QA +RD 泳道1&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=24;fontColor=#CC99FF;" vertex="1" parent="1">
+          <mxGeometry x="-480" y="260" width="50" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
