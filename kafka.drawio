@@ -1,1 +1,142 @@
-<mxfile host="app.diagrams.net" modified="2022-05-10T01:46:42.860Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" version="17.4.6" etag="aimLdn72sK7YCTo3Giy0" type="github"><diagram id="9afUUw9v980UzaeADW_X">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-10T02:34:22.327Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="m7Zb8EfEgxEOfoCQ-CUh" version="17.4.6" type="github">
+  <diagram id="9afUUw9v980UzaeADW_X" name="Page-1">
+    <mxGraphModel dx="1186" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GoOIzwRl_ZngMtgPxKFM-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GoOIzwRl_ZngMtgPxKFM-2" target="GoOIzwRl_ZngMtgPxKFM-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GoOIzwRl_ZngMtgPxKFM-2" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="182" y="75" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GoOIzwRl_ZngMtgPxKFM-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GoOIzwRl_ZngMtgPxKFM-3" target="GoOIzwRl_ZngMtgPxKFM-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GoOIzwRl_ZngMtgPxKFM-3" value="下单(订单服务)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="162" y="180" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GoOIzwRl_ZngMtgPxKFM-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GoOIzwRl_ZngMtgPxKFM-4" target="GoOIzwRl_ZngMtgPxKFM-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GoOIzwRl_ZngMtgPxKFM-4" value="支付逻辑(支付服务)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="162" y="270" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GoOIzwRl_ZngMtgPxKFM-7" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="182" y="370" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GoOIzwRl_ZngMtgPxKFM-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GoOIzwRl_ZngMtgPxKFM-11" target="GoOIzwRl_ZngMtgPxKFM-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GoOIzwRl_ZngMtgPxKFM-11" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="432" y="75" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GoOIzwRl_ZngMtgPxKFM-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GoOIzwRl_ZngMtgPxKFM-13" target="GoOIzwRl_ZngMtgPxKFM-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GoOIzwRl_ZngMtgPxKFM-13" value="下单" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="412" y="180" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GoOIzwRl_ZngMtgPxKFM-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GoOIzwRl_ZngMtgPxKFM-15" target="GoOIzwRl_ZngMtgPxKFM-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GoOIzwRl_ZngMtgPxKFM-15" value="支付逻辑 100ms" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="412" y="270" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GoOIzwRl_ZngMtgPxKFM-16" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="432" y="370" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GoOIzwRl_ZngMtgPxKFM-17" value="短信营销服务 100ms" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="663" y="170" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GoOIzwRl_ZngMtgPxKFM-18" value="财务报表服务 200ms" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="663" y="230" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GoOIzwRl_ZngMtgPxKFM-19" value="物流系统 300ms" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="663" y="300" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GoOIzwRl_ZngMtgPxKFM-21" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/ionicons-fill-vol-1/512/ellipsis-vertical-128.png" vertex="1" parent="1">
+          <mxGeometry x="715" y="367" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GoOIzwRl_ZngMtgPxKFM-25" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="556" y="272" as="sourcePoint" />
+            <mxPoint x="656" y="182" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GoOIzwRl_ZngMtgPxKFM-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="283" as="sourcePoint" />
+            <mxPoint x="660" y="253" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GoOIzwRl_ZngMtgPxKFM-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="290" as="sourcePoint" />
+            <mxPoint x="650" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GoOIzwRl_ZngMtgPxKFM-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GoOIzwRl_ZngMtgPxKFM-35" target="GoOIzwRl_ZngMtgPxKFM-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GoOIzwRl_ZngMtgPxKFM-35" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="922" y="74" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GoOIzwRl_ZngMtgPxKFM-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GoOIzwRl_ZngMtgPxKFM-37" target="GoOIzwRl_ZngMtgPxKFM-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GoOIzwRl_ZngMtgPxKFM-37" value="下单" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="902" y="179" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GoOIzwRl_ZngMtgPxKFM-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GoOIzwRl_ZngMtgPxKFM-39" target="GoOIzwRl_ZngMtgPxKFM-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GoOIzwRl_ZngMtgPxKFM-39" value="支付逻辑 100ms" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="902" y="269" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GoOIzwRl_ZngMtgPxKFM-40" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="922" y="369" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GoOIzwRl_ZngMtgPxKFM-41" value="短信营销服务 100ms" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1281" y="169" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GoOIzwRl_ZngMtgPxKFM-42" value="财务报表服务 200ms" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1281" y="229" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GoOIzwRl_ZngMtgPxKFM-43" value="物流系统 300ms" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1281" y="299" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GoOIzwRl_ZngMtgPxKFM-44" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/ionicons-fill-vol-1/512/ellipsis-vertical-128.png" vertex="1" parent="1">
+          <mxGeometry x="1333" y="366" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GoOIzwRl_ZngMtgPxKFM-48" value="MQ" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1126" y="260" width="88" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GoOIzwRl_ZngMtgPxKFM-49" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1046" y="288.5" as="sourcePoint" />
+            <mxPoint x="1120" y="289" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GoOIzwRl_ZngMtgPxKFM-50" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1270" y="200" as="sourcePoint" />
+            <mxPoint x="1190" y="259" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GoOIzwRl_ZngMtgPxKFM-65" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1280" y="250" as="sourcePoint" />
+            <mxPoint x="1210" y="279" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GoOIzwRl_ZngMtgPxKFM-66" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.955;entryY=0.833;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="GoOIzwRl_ZngMtgPxKFM-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1270" y="320" as="sourcePoint" />
+            <mxPoint x="1220" y="289" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
